@@ -30,12 +30,80 @@
 }
 
 #img{
-    width: 700px;
-    height: 400px;
-    margin-left: 290px;
+    display: flex;
+    width: 600px;
+    height: 350px;
+    border: solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 
 .home{
-    background: whitesmoke;
+    background: lavender;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.about{
+    
+    background-color: lavenderblush;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+
+}
+
+#imagen-about{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    border: solid;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#text{
+    
+    font-size: 13px;
+    margin-right: 120px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+
+    
+
+}
+
+#title{
+    font-size: 25px;
+}
+
+.formulario{
+    width: 200px;
+    height: 200px;
+    background: lavender;
+    border: solid;
+    padding: 15px;
+    padding-top: 20px;
+    display: block;
+    gap: 100px;
+    justify-content: space-between;
+    
+}
+
+
+.button{
+    display: flex;
+}
+
+.contacto{
+
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
