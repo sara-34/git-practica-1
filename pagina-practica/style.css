@@ -103,8 +103,9 @@
     border: solid;
     padding: 20px 15px;
     display: flex;
+    justify-content: space-between;
     gap: 50px;
-    margin: 12px 300px 0 0;
+    margin-left: 50px;
     
 }
 
