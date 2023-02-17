@@ -30,12 +30,13 @@
 }
 
 #img{
+
     display: flex;
     width: 600px;
     height: 350px;
     border: solid;
     margin-top: 10px 0 10px ;
-    /*margin-bottom: 10px;*/
+ 
 
 }
 
@@ -186,5 +187,6 @@
     
     
       
+
 
 
