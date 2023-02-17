@@ -19,7 +19,7 @@
     margin: 0 40px 0 40px;
 }
 
-#enlaces{
+.enlaces{
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     
@@ -29,7 +29,7 @@
     padding-top: 4px;
 }
 
-#img{
+.img{
 
     display: flex;
     width: 600px;
@@ -62,7 +62,7 @@
     align-items: column;
     margin: 12px 300px 0 0;
 }
-#imagen-about{
+.imagen-about{
     display: flex;
     align-items: center;
     width: 200px;
@@ -73,7 +73,7 @@
     /*margin-left: 55px;*/
 }
 
-#imagen-about-form{
+.imagen-about-form{
     display: flex;
     align-items: center;
     width: 200px;
@@ -83,7 +83,7 @@
 }
 
 
-#text{
+.text{
     
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
@@ -92,7 +92,7 @@
 
 }
 
-#title{
+.title{
     font-size: 25px;
 }
 
@@ -132,7 +132,7 @@
     align-items: center;
 }
 
-#menssage {
+.menssage {
     height: 90px;
 }
 
@@ -152,7 +152,7 @@
         margin: 10px 0 0 40px;
     }
 
-    #img{
+    .img{
         width: 300px;
         height: 200px;
         display: flex;
@@ -160,7 +160,7 @@
         margin: 10px 0 10px 0;
     }
 
-    #imagen-about{
+    .imagen-about{
         width: 100px;
         height: 80px;
         margin-left: 10px;
@@ -170,7 +170,7 @@
         gap: 50px;
     }
 
-    #imagen-about-form{
+    .imagen-about-form{
         width: 250px;
         height: 200px;
         margin: 10px 70px;
