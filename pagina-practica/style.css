@@ -19,7 +19,7 @@
     margin: 0 40px 0 40px;
 }
 
-#enlaces{
+.enlaces{
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     
@@ -29,13 +29,173 @@
     padding-top: 4px;
 }
 
-#img{
-    width: 700px;
-    height: 400px;
-    margin-left: 290px;
+.img-home{
+
+    display: flex;
+    width: 600px;
+    height: 350px;
+    border: solid;
+    margin-top: 10px 0 10px ;
+ 
 
 }
 
 .home{
-    background: whitesmoke;
+    background: lavender;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.about{
+    
+    background-color: lavenderblush;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.parrafo{
+    display: block;
+    align-items: column;
+    margin: 12px 300px 0 0;
+}
+.imagen-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 150px;
+    border: solid;
+    margin: 10px 0 0 250px ;
+
+    /*margin-left: 55px;*/
+}
+
+.imagen-about-form{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 150px;
+    border: solid;
+    margin: 10px 50px;
+}
+
+
+.text{
+    
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+
+}
+
+.title{
+    font-size: 25px;
+}
+
+.formulario{
+    width: 200px;
+    height: 200px;
+    background: lavender;
+    border: solid;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+    
+}
+
+
+.button{
+    width: 200px;
+    height: 30px;
+    background-color: azure;
+    
+    
+}
+
+.contacto{
+
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactos h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menssage {
+    height: 90px;
+}
+
+@media(max-width: 370px){
+    
+    .container{
+        background-color: whitesmoke;
+        width: 100%;
+        
+    
+    }
+    
+    .cabecera-enlaces{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin: 10px 0 0 40px;
+    }
+
+    .img-home{
+        width: 300px;
+        height: 200px;
+        display: flex;
+        align-items: end;
+        margin: 10px 0 10px 0;
+    }
+
+    .imagen-about{
+        width: 100px;
+        height: 80px;
+        margin-left: 10px;
+    }
+
+    .about{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .imagen-about-form{
+        width: 150px;
+        height: 100px;
+        margin: 10px 110px;
+
+        
+    }
+
+    .contacto{
+        display: block;
+    
+    }
+
+    .formulario{
+        margin: 10px 70px;
+    
+        
+    }
+
+}  
+    
+    
+    
+    
+      
+
+
+
